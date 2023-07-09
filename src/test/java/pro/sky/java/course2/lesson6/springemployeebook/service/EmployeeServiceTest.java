@@ -65,4 +65,5 @@ public class EmployeeServiceTest {
         employeeService.add("Ivan", "Ivanov", 1, 1);
         assertThrows(EmployeeNotFoundException.class, () -> employeeService.find("NotIvan", "NotIvanov"));
     }
+    {}
 }
